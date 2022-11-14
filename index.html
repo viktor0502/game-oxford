@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game-oxford</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav__wrapper">
+            <div class="nav__logo">
+              <img src="img/logo.svg" alt="logo" />
+            </div>
+            <div class="burger-btn">
+              <span></span>
+            </div>
+            
+            <ul class="nav__menu">
+              <li class="nav__list"><a href="#" class="nav__link">Курсы</a></li>
+              <li class="nav__list">
+                <a href="#" class="nav__link">Журнал</a>
+              </li>
+              <li class="nav__list"><a href="#" class="nav__link">Тесты</a></li>
+              <ul class="nav__list nav-list">
+                <li class="nav-list__item">
+                  <a href="#" class="nav-list__link--signup"
+                    ><img src="img/icons/signup-icon.svg" alt="" />
+                    Регистрация</a
+                  >
+                </li>
+                <li class="nav-list__item">
+                  <a href="#" class="nav-list__link--login"
+                    ><img src="img/icons/login-icon.svg" alt="" /> Войти</a
+                  >
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="header__main">
+          <div class="header__title">
+            <h1>ГЕЙМДИЗАЙНЕР <span>с 0 до PRO</span></h1>
+            <p>
+              Вы освоите системный и бизнес-анализ, чтобы помогать компаниям
+              принимать стратегические решения и увеличивать прибыль. Освойте
+              профессию с нуля и сможете устроиться на работу через полгода
+              после начала обучения.
+            </p>
+            <a href="#" class="btn-main">Приобрести</a>
+          </div>
+          <div class="header__video">
+            <img src="img/video-preview.png" alt="" />
+          </div>
+        </div>
+        <a href="#" class="header__btn"
+          >К первой лекции <img src="img/icons/arrow-right.svg" alt=""
+        /></a>
+      </div>
+    </header>
+    <main>
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits__wrapper form-main__wrapper">
+            <div class="benefits__content form-main__content">
+              <h2 class="benefits__title">
+                После приобретения курса <br />
+                <span>Вы получите</span>
+              </h2>
+              <ul class="benefits__list">
+                <li class="benefits__item">22 ч видео по запросу</li>
+                <li class="benefits__item">Учебные материалы</li>
+                <li class="benefits__item">Полный пожизненный доступ</li>
+                <li class="benefits__item">Практика домашних заданий</li>
+                <li class="benefits__item">Тесты и сертификаты</li>
+              </ul>
+            </div>
+            <div class="benefits__form form-main__form">
+              <h2>
+                Получите программу курса на
+                <span class="purple-span">email</span>
+              </h2>
+              <form>
+                <label for="name"
+                  ><input type="text" id="name" placeholder="Введите Ваше имя"
+                /></label>
+                <label for="mail"
+                  ><input
+                    type="mail"
+                    id="mail"
+                    placeholder="Введите Ваш e-mail"
+                /></label>
+                <button type="submit" class="btn-main">Получить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="get">
+        <div class="container">
+          <h2>От нас вы <span class="purple-span">получите</span></h2>
+          <div class="get__wrapper">
+            <div class="get__item get-item">
+              <img src="img/get1.svg" alt="get" />
+              <h3 class="get-item__title">Доступность</h3>
+              <p class="get-item__text">
+                Мы не ставим целей продать. Наша главная задача - это
+                предоставить курсы, доступные и понятные абсолютно каждому.
+              </p>
+            </div>
+            <div class="get__item get-item">
+              <img src="img/get2.svg" alt="get" />
+              <h3 class="get-item__title">Актуальность</h3>
+              <p class="get-item__text">
+                Мы идем в ногу с актуальными практиками и постоянно дополняем
+                наши курсы.
+              </p>
+            </div>
+            <div class="get__item get-item">
+              <img src="img/get3.svg" alt="get" />
+              <h3 class="get-item__title">Поддержка</h3>
+              <p class="get-item__text">
+                Однажды оплатив направление - вы приобретаете пожизненную
+                подписку на все актуальные инновации в сфере курса.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="learn">
+        <div class="container">
+          <h2>Чему вы <span class="purple-span"> научитесь?</span></h2>
+          <ul class="learn__wrapper">
+            <li class="learn__item">Система визуального программирования</li>
+            <li class="learn__item">Система визуального программирования</li>
+            <li class="learn__item">Система визуального программирования</li>
+            <li class="learn__item">Система визуального программирования</li>
+          </ul>
+        </div>
+      </section>
+      <section class="create">
+        <div class="container">
+          <h2>Вы сможете <span class="purple-span">создавать</span></h2>
+          <div class="create__wrapper">
+            <div class="create__item create-item">
+              <img src="img/create1.png" alt="create" />
+              <p class="create-item__hover-text">
+                Благодаря проекту я выработал и упрочил собственный дизайнерский
+                стиль, а также познакомился с самыми удивительными,
+                вдохновляющими и интеллектуальными создателями игр. Я с
+                гордостью называю свою цель «самой умной идеей, пришедшей в
+                голову более юному мне».
+              </p>
+              <h4 class="create__title">
+                3D Платформер
+                <img src="img/icons/create-icon.svg" alt="arrow-right" />
+              </h4>
+            </div>
+            <div class="create__item">
+              <img src="img/create2.png" alt="create" />
+              <p class="create-item__hover-text">
+                Благодаря проекту я выработал и упрочил собственный дизайнерский
+                стиль, а также познакомился с самыми удивительными,
+                вдохновляющими и интеллектуальными создателями игр. Я с
+                гордостью называю свою цель «самой умной идеей, пришедшей в
+                голову более юному мне».
+              </p>
+              <h4 class="create__title">
+                3D Racing
+                <img src="img/icons/create-icon.svg" alt="arrow-right" />
+              </h4>
+            </div>
+            <div class="create__item">
+              <img src="img/create3.png" alt="create" />
+              <p class="create-item__hover-text">
+                Благодаря проекту я выработал и упрочил собственный дизайнерский
+                стиль, а также познакомился с самыми удивительными,
+                вдохновляющими и интеллектуальными создателями игр. Я с
+                гордостью называю свою цель «самой умной идеей, пришедшей в
+                голову более юному мне».
+              </p>
+              <h4 class="create__title">
+                2D Платформер
+                <img src="img/icons/create-icon.svg" alt="arrow-right" />
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="teacher">
+        <div class="container">
+          <h2>Преподаватель<span class="purple-span"> курса </span></h2>
+          <div class="teacher__wrapper">
+            <div class="teacher__teacher">
+              <img src="img/teacher.png" alt="" />
+              <p>Сергей Попов</p>
+            </div>
+            <div class="teacher__content">
+              <h5>
+                Мне не терпится поделиться с вами всем, что я узнал, чтобы вы
+                тоже могли стать великим разработчиком игр в кратчайшие сроки.
+              </h5>
+              <p>
+                Привет Меня зовут Сергей, я дизайнер экономических игр в Ubisoft
+                Montreal. С тех пор, как я был молод, я всегда интересовался
+                созданием игр; будь то изобретение ролевых игр с моей сестрой,
+                создание огромных миров Lego с сюжетными приключениями или
+                создание таблиц Excel для Diablo. С детства мой путь всегда был
+                ясен — я так или иначе буду работать в индустрии видеоигр.
+              </p>
+              <p>
+                Во взрослом возрасте я продолжил этот путь и получил две
+                степени; один в маркетинге, а другой в дизайне игр и уровней. Во
+                время учебы я углубился во многие теоретические темы о дизайне и
+                разработке игр, такие как; Бизнес-модель Freemium, геймификация,
+                анализ KPI для оптимизации, дизайн уровней, цветовая психология
+                — это лишь некоторые из них. В моих личных подходах было много
+                проб и ошибок, которые являются ошибками, которых я хочу, чтобы
+                другие избегали, поэтому я начал создавать эти курсы, чтобы
+                помочь разработчикам, плохо знакомым с отраслью, не совершать
+                тех же ошибок, что и я, и многие другие. Готово.
+              </p>
+              <p>
+                Итак, начните прямо сейчас и взгляните на некоторые из курсов,
+                которые я предлагаю. Если у вас есть какие-либо вопросы - смело
+                обращайтесь!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h2>Отзывы<span class="purple-span"> наших учеников</span></h2>
+          <div class="reviews__wrapper">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide__wrapper">
+                    <div class="slide__item">
+                      <img src="img/review-avatar.png" alt="review-avatar" />
+                      <h5 class="review__name">Максим Христовский</h5>
+                      <p class="review__text">
+                        Большое вам спасибо, объяснил все очень доходчиво и
+                        преподносил информацию круто и интересно
+                      </p>
+                      <a href="#" class="review__link"
+                        ><span class="review__number-of-answers">5</span>
+                        ответов</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__wrapper">
+                    <div class="slide__item">
+                      <img src="img/review-avatar.png" alt="review-avatar" />
+                      <h5 class="review__name">Максим Христовский</h5>
+                      <p class="review__text">
+                        Большое вам спасибо, объяснил все очень доходчиво и
+                        преподносил информацию круто и интересно
+                      </p>
+                      <a href="#" class="review__link"
+                        ><span class="review__number-of-answers">5</span>
+                        ответов</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__wrapper">
+                    <div class="slide__item">
+                      <img src="img/review-avatar.png" alt="review-avatar" />
+                      <h5 class="review__name">Максим Христовский</h5>
+                      <p class="review__text">
+                        Большое вам спасибо, объяснил все очень доходчиво и
+                        преподносил информацию круто и интересно
+                      </p>
+                      <a href="#" class="review__link"
+                        ><span class="review__number-of-answers">5</span>
+                        ответов</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide__wrapper">
+                    <div class="slide__item">
+                      <img src="img/review-avatar.png" alt="review-avatar" />
+                      <h5 class="review__name">Максим Христовский</h5>
+                      <p class="review__text">
+                        Большое вам спасибо, объяснил все очень доходчиво и
+                        преподносил информацию круто и интересно
+                      </p>
+                      <a href="#" class="review__link"
+                        ><span class="review__number-of-answers">5</span>
+                        ответов</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <a href="#" class="reviews__link--main">Просмотреть все отзывы</a>
+          </div>
+        </div>
+      </section>
+      <section class="target-audience">
+        <div class="container">
+          <h2>Кому подойдет этот <span class="purple-span"> курс</span></h2>
+          <div class="target-audience__wrapper">
+            <div class="target-audience__item">
+              <img src="img/target1.png" alt="target-audience" />
+              <h4 class="target-audience__title">Людям без опыта в IT</h4>
+              <p class="target-audience__text">
+                Вы получите базовые навыки по програмированию, аналитике.
+                статистике и математике, которые откроют путь к карьере в Data
+                science и Machine Learning. Сможете использовать свои знания
+                сразу на практике.
+              </p>
+            </div>
+            <div class="target-audience__item">
+              <img src="img/target2.png" alt="target-audience" />
+              <h4 class="target-audience__title">Программистам</h4>
+              <p class="target-audience__text">
+                Вы прокачаете свои знания и навыки в програмировании на Python и
+                R. Подтяните математику и умение мыслить как аналитик,
+                использовать алгоритмы машинного обучения для решения бизнес
+                задач - и усилите портфолио мощными проектами.
+              </p>
+            </div>
+            <div class="target-audience__item">
+              <img src="img/target3.png" alt="target-audience" />
+              <h4 class="target-audience__title">Начинающим аналитикам</h4>
+              <p class="target-audience__text">
+                Вы научитесь ставить гипотезы и делать выводы на основе данных,
+                писать эффективный код на Python и R, превращать сырые данные в
+                полезую информацию для компании, понимать математику на основе
+                статистики, а так же обучать машины и прогнозировать результаты.
+                Отшлифуете знания, увеличите скорость своей работы и добьетесь
+                повышения.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="course-content">
+        <div class="container">
+          <h2>Содержание <span class="purple-span"> курса</span></h2>
+          <div class="course-content__wrapper">
+            <ul class="course-content__dropdown course-dropdown">
+              <li class="course-dropdown__item active">
+                <p class="course-dropdown__title">Game Design</p>
+                <ul class="course-dropdown__content">
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                </ul>
+              </li>
+              <li class="course-dropdown__item">
+                <p class="course-dropdown__title">Game Design</p>
+                <ul class="course-dropdown__content">
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                </ul>
+              </li>
+              <li class="course-dropdown__item">
+                <p class="course-dropdown__title">Game Design</p>
+                <ul class="course-dropdown__content">
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                </ul>
+              </li>
+              <li class="course-dropdown__item">
+                <p class="course-dropdown__title">Game Design</p>
+                <ul class="course-dropdown__content">
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                </ul>
+              </li>
+              <li class="course-dropdown__item">
+                <p class="course-dropdown__title">Game Design</p>
+                <ul class="course-dropdown__content">
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                  <li class="course-dropdown__list">
+                    Администрирование баз данных
+                  </li>
+                  <li class="course-dropdown__list">
+                    Понимание клиент-серверной архитектуры
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="container">
+          <div class="faq__title">
+            <h2>Помощь <span class="purple-span"> FAQ</span></h2>
+            <h4 class="faq__subtitle">
+              Ответы на часто задаваемые вопросы
+              <img src="img/icons/info.svg" alt="info" />
+            </h4>
+          </div>
+          <div class="faq__wrapper">
+            <div class="faq__item faq-item active">
+              <h5 class="faq-item__title">
+                Как проходит бесплатное занятие?
+                <img src="img/icons/plus.svg" alt="plus" />
+              </h5>
+              <p class="faq-item__text">
+                Центр развития карьеры поможетс составлением резюме и
+                подготовитк собеседованию.Центр развития карьеры поможетс
+                составлением резюме и подготовитк собеседованию.Центр развития
+                карьеры помос составлением резюме и подготовитк
+                собеседованию.Центр развития карьеры поможет с составлением
+                резюме и подготовитк собеседованию.
+              </p>
+            </div>
+            <div class="faq__item faq-item">
+              <h5 class="faq-item__title">
+                Как проходит бесплатное занятие?
+                <img src="img/icons/plus.svg" alt="plus" />
+              </h5>
+              <p class="faq-item__text">
+                Центр развития карьеры поможетс составлением резюме и
+                подготовитк собеседованию.Центр развития карьеры поможетс
+                составлением резюме и подготовитк собеседованию.Центр развития
+                карьеры помос составлением резюме и подготовитк
+                собеседованию.Центр развития карьеры поможет с составлением
+                резюме и подготовитк собеседованию.
+              </p>
+            </div>
+            <div class="faq__item faq-item">
+              <h5 class="faq-item__title">
+                Как проходит бесплатное занятие?
+                <img src="img/icons/plus.svg" alt="plus" />
+              </h5>
+              <p class="faq-item__text">
+                Центр развития карьеры поможетс составлением резюме и
+                подготовитк собеседованию.Центр развития карьеры поможетс
+                составлением резюме и подготовитк собеседованию.Центр развития
+                карьеры помос составлением резюме и подготовитк
+                собеседованию.Центр развития карьеры поможет с составлением
+                резюме и подготовитк собеседованию.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-callback">
+        <div class="container">
+          <div class="form-main__wrapper form-callback__wrapper">
+            <div class="form-main__content form-callback__content">
+              <h2>Хотите получить <span>первые</span> бесплатные уроки?</h2>
+              <p>
+                Заполните форму, и мы с радостью отправим вам пробные лекции на
+                Вашу почту!
+              </p>
+            </div>
+            <div class="form-main__form form-callback__form">
+              <img src="img/icons/gift.png" alt="" />
+              <h2>Напишите <span class="purple-span">нам</span></h2>
+              <p>Если хотите получить бесплатные курсы</p>
+              <form>
+                <label for="name"
+                  ><input type="text" id="name" placeholder="Введите Ваше имя"
+                /></label>
+                <label for="mail"
+                  ><input
+                    type="mail"
+                    id="mail"
+                    placeholder="Введите Ваш e-mail"
+                /></label>
+                <button type="submit" class="btn-main">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__elements--left">
+            <img src="img/logo.svg" alt="logo" />
+            <ul class="footer__nav">
+              <li class="footer__list">
+                <a href="#" class="footer__links"
+                  >Политика конфиденциальности</a
+                >
+              </li>
+              <li class="footer__list">
+                <a href="#" class="footer__links">Оферта</a>
+              </li>
+              <li class="footer__list">
+                <a href="#" class="footer__links"
+                  >Сведения об образовательной организации</a
+                >
+              </li>
+            </ul>
+            <p class="license">
+              Лицензия на образовательную деятельность № 040485 от 03 декабря
+              2019 года ООО 'ГикБреинс', Москва. Ленинградский проспект 39,
+              строение 80, ИНН 772638 1870CookBrains, 2014 - 2021
+            </p>
+          </div>
+          <div class="footer__elements--right">
+            <div class="footer__categories footer-categories">
+              <div class="footer-categories__item">Геймдизайнер</div>
+              <div class="footer-categories__item">Python</div>
+              <div class="footer-categories__item">C++</div>
+            </div>
+            <div class="footer__btns">
+              <div class="footer__social-wrapper">
+                <a href="#" class="footer__social-link" target="_blank"><img src="img/icons/Facebook.png" alt="Facebook" /></a>
+                <a href="#" class="footer__social-link" target="_blank"><img src="img/icons/Telegram.png" alt="Telegram" /></a>
+                <a href="#" class="footer__social-link" target="_blank"><img src="img/icons/Twitter.png" alt="Twitter" /></a>
+                <a href="#" class="footer__social-link" target="_blank"><img src="img/icons/Viber.png" alt="Viber" /></a>
+              </div>
+              <a href="#" class="btn-to-top"><img src="img/icons/to top.svg" alt="top"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/accordeon.js"></script>
+    <script src="js/burger.js"></script>
+  </body>
+</html>
